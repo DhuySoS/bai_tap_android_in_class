@@ -13,15 +13,7 @@
         android:theme="@style/Theme.Bai_tap_nop"
         tools:targetApi="31">
         <activity
-            android:name=".tuan22_list_view.kotlinListViewMainActivity"
-            android:exported="true" >
-
-        </activity>
-        <activity
-            android:name=".tuan22_sum_intent.kotlinSumMainActivity"
-            android:exported="false"/>
-        <activity
-            android:name=".tuan2_listView.javaListViewMainActivity"
+            android:name=".tuan32.customListViewMainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,13 +22,22 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".tuan22_list_view.kotlinListViewMainActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".tuan22_sum_intent.kotlinSumMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tuan2_listView.javaListViewMainActivity"
+            android:exported="false"/>
+        <activity
             android:name=".tuan2_sum_intent.javaSecondActivity"
             android:exported="false" />
         <activity
             android:name=".tuan2_sum_intent.javaMainActivity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="false"/>
     </application>
 
 </manifest>
